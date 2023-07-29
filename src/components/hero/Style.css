@@ -1,0 +1,94 @@
+.navbar-hero-container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.85) 0%), url('../../imagenes/background-gym.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido del contenedor */
+    overflow-x: hidden;
+}
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+.navbar > a {
+    text-decoration: none;
+    color: yellow;
+}
+.navbar-logo-container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color: yellow;
+    margin-left: 3%;
+    width: 25%;
+}
+.navbar-logo-container > img {
+    height: 3rem;
+    padding: 2px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.span-house {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.span-tenia {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.a-icon {
+    vertical-align: middle !important;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.navbar-search-container {
+    color: yellow;
+    height: 3rem;
+    margin-right: 3%;
+    border-left: 2px solid white;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.hero-container {
+    height: 90vh;
+    display: flex;
+}
+.hero-izquierdo {
+    width: 55vw;
+}
+.hero-derecho {
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    overflow: hidden; /* Para recortar cualquier contenido que se salga del div */
+}
+
+.hero-derecho > img {
+    width: 80%;
+    height: auto;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+/* Pseudoelemento para crear el círculo con fondo rojo */
+.hero-derecho::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* Tamaño del círculo igual a la mitad del div */
+    height: 100%;
+    background-color: red;
+    border-radius: 50%;
+    z-index: -1; /* Para asegurarnos de que el pseudoelemento esté detrás de la imagen */
+}
