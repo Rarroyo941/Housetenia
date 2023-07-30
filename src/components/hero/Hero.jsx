@@ -3,7 +3,6 @@ import logo from '../../imagenes/housetenia-logo-black-sinfondo.jpg';
 import gimnasta from '../../imagenes/pexels-anush-gorak-1431282-removebg.jpg';
 import {AiOutlineDown} from 'react-icons/ai';
 import {FaSearchengin} from 'react-icons/fa';
-import Button from 'react-bootstrap/Button';
 import React, { useEffect, useRef } from 'react';
 
 function Hero() {
@@ -52,7 +51,7 @@ function Hero() {
                 <p>TU CUERPO</p>
                 <p>Bienvenido a nuestro equipo de entrenamiento personalizado. Juntos, alcanzaremos tus metas de acondicionamiento físico con un programa adaptado a tus necesidades y objetivos.</p>
                 <p>¡Comencemos esta emocionante travesía hacia un nuevo tú!</p>
-                <Button className='hero-btn'>EMPEZÁ HOY</Button>
+                <button className='hero-btn'>EMPEZÁ HOY</button>
             </div>
             <div className='hero-derecho'>
                 <div ref={heroImgRef}className='hero-img-container'>

@@ -1,0 +1,7 @@
+.planes-container {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

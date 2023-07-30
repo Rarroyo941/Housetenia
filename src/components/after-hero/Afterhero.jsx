@@ -9,7 +9,7 @@ function Afterhero() {
     return(
         <section className='after-hero-section'>
             <div className='after-hero-titulo'>
-                <h2>ENTRENADOR PERSONAL</h2>
+                <h1>ENTRENADOR PERSONAL</h1>
                 <h4>PASIÓN POR LA SALUD Y EL FITNESS</h4>
                 <p>Tu aliado valioso para buscar mejorar tu bienestar físico y alcanzar tu máximo potencial</p>
             </div>
@@ -28,7 +28,7 @@ function Afterhero() {
                     </div>
                     <div className='after-hero-contenedor-der-articulo'>
                         <CgGym className='after-hero-icon' />
-                        <p>Entrena donde querés</p>
+                        <p>Entrena donde gustes</p>
                     </div>
                 </div>
             </div>
