@@ -31,8 +31,11 @@
     padding-right: 3rem;
     opacity: 0;
     left: -100px;
-    transition: opacity 0.5s, left 1s;
+    transition: opacity 0.5s, left 1.5s;
   }
+.after-hero-contenedor-izq > img {
+    width: 80%;
+}
   .after-hero-contenedor-izq.show {
     opacity: 1;
     left: 0;

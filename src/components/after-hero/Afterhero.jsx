@@ -1,6 +1,6 @@
 import './Style.css';
 import React, { useEffect }from 'react';
-import mujerpelota from '../../imagenes/mujer-pelota.jpg';
+import mujerpelota from '../../imagenes/Workout-Gym-Fitness-Female-PNG-Image.png';
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {LiaClipboardListSolid} from 'react-icons/lia'
 import {CgGym} from 'react-icons/cg'

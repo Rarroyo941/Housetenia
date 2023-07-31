@@ -38,7 +38,7 @@ function Hero() {
             </div>
             <a href='#'>INICIO <AiOutlineDown className='a-icon'/></a>
             <a href='#'>CLASES <AiOutlineDown className='a-icon'/></a>
-            <a href='#'>PLANES <AiOutlineDown className='a-icon'/></a>
+            <a href='#planes'>PLANES <AiOutlineDown className='a-icon'/></a>
             <a href='#'>BLOG <AiOutlineDown className='a-icon'/></a>
             <a href='#'>OPINIONES <AiOutlineDown className='a-icon'/></a>
             <a href='#'>CONTACTO <AiOutlineDown className='a-icon'/></a>

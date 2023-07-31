@@ -10,11 +10,33 @@
 .planes-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-.card-list {
-    background-color: blue;
+    justify-content: center;
+    gap: 10px;
 }
 .card-list-item {
-    background-color: blue;
+    display: flex !important;
+    justify-content: space-between;
+}
+.card-list-icon {
+    color: green;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.card-list-icon-cancel {
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.card-header {
+    background-color: yellow !important;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.card:hover {
+    box-shadow: 0 0 10px yellow !important;
+    cursor: pointer;
+}
+.card:nth-child(2) {
+    height: 400px;
 }
