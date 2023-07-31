@@ -11,11 +11,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .card-list-item {
     display: flex !important;
     justify-content: space-between;
+}
+.card-list-item-precio {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 .card-list-icon {
     color: green;
@@ -38,5 +44,12 @@
     cursor: pointer;
 }
 .card:nth-child(2) {
-    height: 400px;
+    height: 430px;
+}
+.btn-primary {
+    width: 70% !important;
+    background-color: yellow !important;
+    color: black !important;
+    margin: auto;
+    font-weight: bold !important;
 }

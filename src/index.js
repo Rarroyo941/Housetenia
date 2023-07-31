@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero.jsx';
 import Afterhero from './components/after-hero/Afterhero';
 import Planes from './components/planes/Planes';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Video from './components/video-section/Video';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Hero />
     <Afterhero />
     <Planes />
+    <Video/>
   </React.StrictMode>
 );
 

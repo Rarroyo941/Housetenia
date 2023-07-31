@@ -28,13 +28,13 @@ function Planes() {
                         <ListGroup.Item className='card-list-item'>
                             <p>1 vez por semana</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className='card-list-item'>
-                            <p>$16.000</p>
+                        <ListGroup.Item className='card-list-item-precio'>
+                            $16.000
                         </ListGroup.Item>
                     </ListGroup>
-                    <Card.Link href="#" className='btn btn-primary'>Contratar</Card.Link>
+                    <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>
                 </Card>
-                <Card className="card" style={{ width: '27rem' }} id="planes">
+                <Card className="card" style={{ width: '25rem' }} id="planes">
                     <Card.Header className='card-header'>Plan Premium</Card.Header>
                     <ListGroup variant="flush">
                     <ListGroup.Item className='card-list-item'>
@@ -52,11 +52,11 @@ function Planes() {
                         <ListGroup.Item className='card-list-item'>
                             <p>3 vez por semana</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className='card-list-item'>
-                            <p>$20.000</p>
+                        <ListGroup.Item className='card-list-item-precio'>
+                            $20.000
                         </ListGroup.Item>
                     </ListGroup>
-                    <Card.Link href="#" className='btn btn-primary'>Contratar</Card.Link>
+                    <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>
                 </Card>
                 <Card className="card" style={{ width: '25rem' }}>
                     <Card.Header className='card-header'>Plan Profesional</Card.Header>
@@ -76,11 +76,11 @@ function Planes() {
                         <ListGroup.Item className='card-list-item'>
                             <p>5 vez por semana</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className='card-list-item'>
-                            <p>$25.000</p>
+                        <ListGroup.Item className='card-list-item-precio'>
+                            $25.000
                         </ListGroup.Item>
                     </ListGroup>
-                    <Card.Link href="#" className='btn btn-primary'>Contratar</Card.Link>
+                    <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>
                 </Card>
             </div>
         </section>
