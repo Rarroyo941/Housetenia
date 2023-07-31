@@ -34,7 +34,7 @@ function Hero() {
         <navbar className="navbar">
             <div className='navbar-logo-container'>
                 <img src={logo} alt='logo'/>
-                <p><span className='span-house'>HOUSE</span><span className='span-tenia'>TENIA</span></p>
+                <span className='span-house'>HOUSE</span><span className='span-tenia'>TENIA</span>
             </div>
             <a href='#'>INICIO <AiOutlineDown className='a-icon'/></a>
             <a href='#'>CLASES <AiOutlineDown className='a-icon'/></a>

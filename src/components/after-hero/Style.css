@@ -29,7 +29,14 @@
     justify-content: end;
     align-items: center;
     padding-right: 3rem;
-}
+    opacity: 0;
+    left: -100px;
+    transition: opacity 0.5s, left 1s;
+  }
+  .after-hero-contenedor-izq.show {
+    opacity: 1;
+    left: 0;
+  }
 .after-hero-contenedor-der {
     width: 40vw;
     display: flex;
@@ -44,7 +51,14 @@
     display: flex;
     align-items: center;
     position: relative;
+    opacity: 0;
+    right: 200px;
+    transition: opacity 0.5s, right 1s;
 }
+.after-hero-contenedor-der-articulo.show {
+    opacity: 1;
+    right: 0;
+  }
 
 .after-hero-icon {
     position: absolute;

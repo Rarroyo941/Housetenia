@@ -1,11 +1,49 @@
 import './Style.css';
-import React from 'react';
+import React, { useEffect }from 'react';
 import mujerpelota from '../../imagenes/mujer-pelota.jpg';
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {LiaClipboardListSolid} from 'react-icons/lia'
 import {CgGym} from 'react-icons/cg'
 
 function Afterhero() {
+    useEffect(() => {
+        const afterHeroContainer = document.querySelector('.after-hero-contenedor-izq');
+        const afterHeroArticulos = document.querySelectorAll('.after-hero-contenedor-der-articulo');
+
+        function isElementInViewport(element) {
+          const rect = element.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+        function handleScrollAnimation() {
+            if (isElementInViewport(afterHeroContainer)) {
+              afterHeroContainer.classList.add('show');
+              afterHeroArticulos.forEach((articulo) => {
+                if (isElementInViewport(articulo)) {
+                  articulo.classList.add('show');
+                } else {
+                  articulo.classList.remove('show');
+                }
+              });
+            } else {
+              afterHeroContainer.classList.remove('show');
+              afterHeroArticulos.forEach((articulo) => {
+                articulo.classList.remove('show');
+              });
+            }
+          }
+      
+          window.addEventListener('scroll', handleScrollAnimation);
+          handleScrollAnimation();
+      
+          return () => {
+            window.removeEventListener('scroll', handleScrollAnimation);
+          };
+        }, []);
     return(
         <section className='after-hero-section'>
             <div className='after-hero-titulo'>

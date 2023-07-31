@@ -1,7 +1,20 @@
-.planes-container {
-    height: 500px;
+.planes{
     background-color: black;
+    height: 550px;
+}
+.planes > h1 {
+    color: yellow;
+    text-align: center;
+    padding: 1rem;
+}
+.planes-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.card-list {
+    background-color: blue;
+}
+.card-list-item {
+    background-color: blue;
 }
