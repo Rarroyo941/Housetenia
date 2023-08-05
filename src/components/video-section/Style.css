@@ -51,9 +51,13 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    text-align: center;
     flex-direction: column;
     padding: 10px;
+  }
+  .video-text > h5 {
+    margin-top: 1rem;
   }
   .video-text > p {
     color: grey;

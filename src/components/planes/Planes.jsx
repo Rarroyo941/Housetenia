@@ -12,7 +12,7 @@ function Planes() {
             <div className="planes-container">
                 <Card className="card" style={{ width: '25rem' }}>
                     <Card.Header className='card-header'>Plan Inicial</Card.Header>
-                    <ListGroup variant="flush" className='card-list-item'>
+                    <ListGroup variant="flush">
                         <ListGroup.Item className='card-list-item'>
                             <p>Plan Alimenticio</p>
                             <AiOutlineCheck className='card-list-icon'/>
@@ -29,7 +29,7 @@ function Planes() {
                             <p>1 vez por semana</p>
                         </ListGroup.Item>
                         <ListGroup.Item className='card-list-item-precio'>
-                            $16.000
+                            $16.000 /Mes
                         </ListGroup.Item>
                     </ListGroup>
                     <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>
@@ -53,10 +53,10 @@ function Planes() {
                             <p>3 vez por semana</p>
                         </ListGroup.Item>
                         <ListGroup.Item className='card-list-item-precio'>
-                            $20.000
+                            $20.000 /Mes
                         </ListGroup.Item>
                     </ListGroup>
-                    <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>
+                    <Card.Link href="#" className='btn btn-primary contratar'>CONTRATAR</Card.Link>
                 </Card>
                 <Card className="card" style={{ width: '25rem' }}>
                     <Card.Header className='card-header'>Plan Profesional</Card.Header>
@@ -77,7 +77,7 @@ function Planes() {
                             <p>5 vez por semana</p>
                         </ListGroup.Item>
                         <ListGroup.Item className='card-list-item-precio'>
-                            $25.000
+                            $25.000 /Mes
                         </ListGroup.Item>
                     </ListGroup>
                     <Card.Link href="#" className='btn btn-primary'>CONTRATAR</Card.Link>

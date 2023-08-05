@@ -1,6 +1,9 @@
 .planes{
-    background-color: black;
     height: 550px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 0%), url('../../imagenes/planes-bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .planes > h1 {
     color: yellow;
@@ -13,15 +16,29 @@
     justify-content: center;
     gap: 20px;
 }
-.card-list-item {
+.card {
+    background: transparent !important;
+    border: 2px solid yellow !important;
+}
+.card-list-item{
     display: flex !important;
     justify-content: space-between;
+    align-items: center;
+    background: transparent !important;
+}
+.card-list-item > p {
+    color: yellow;
+    vertical-align: middle !important;
+    margin: auto 0;
 }
 .card-list-item-precio {
     font-size: 2rem;
     display: flex;
     align-items: center;
     margin: auto;
+    color: yellow !important;
+    font-weight: bold !important;
+    background: transparent !important;
 }
 .card-list-icon {
     color: green;
@@ -44,7 +61,7 @@
     cursor: pointer;
 }
 .card:nth-child(2) {
-    height: 430px;
+    height: 400px;
 }
 .btn-primary {
     width: 70% !important;

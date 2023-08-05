@@ -50,7 +50,7 @@ const Video = () => {
           <div className="video-text-icon-border">
             <GiWeightLiftingUp className='video-text-icon'/>
           </div>
-          <h5>PROGRAMAS DE ENTRENAMIENTO PERSONALIZADOS</h5>
+          <h5>ENTRENAMIENTO PERSONALIZADOS</h5>
           <p>Descubre entrenamientos adaptados a tu nivel físico y metas, para que puedas lograr un progreso constante y saludable.</p>
         </div> 
       </div>
