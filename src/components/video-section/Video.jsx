@@ -24,20 +24,34 @@ const Video = () => {
       </div>
       <div className='video-texts-container'>
         <div className='video-text'>
-          <GiMeditation/>
-          <p>CUERPO Y MENTE</p>
+          <div className="video-text-icon-border">
+            <GiMeditation className='video-text-icon'/>
+          </div>
+          <h5>CUERPO Y MENTE</h5>
+          <p>Nuestro entrenador construirá un balance excepcional entre tu cuerpo y tu mente</p>
         </div>
         <div className='video-text'>
-          <GiScales/>
-          <p>CUERPO Y MENTE</p>
-        </div> 
+          <div className="video-text-icon-border">
+            <GiScales className='video-text-icon'/>
+          </div>
+          <h5>CONSEJOS PARA UNA VIDA SALUDABLE</h5>
+          <p>Descubre cómo nutrir y cuidar tu cuerpo para alcanzar el bienestar que mereces.</p>
+        </div>
+
         <div className='video-text'>
-          <GiHealthIncrease/>
-          <p>ESTRATEGIAS</p>
-        </div> 
+          <div className="video-text-icon-border">
+            <GiHealthIncrease className='video-text-icon'/>
+          </div>
+          <h5>ESTRATEGIAS PARA EL ÉXITO</h5>
+          <p>Explora planes especializados diseñados para ayudarte a alcanzar tu máximo potencial en todas las áreas de tu vida.</p>
+        </div>
+
         <div className='video-text'>
-          <GiWeightLiftingUp/>
-          <p>ENTRENAMIENTO</p>
+          <div className="video-text-icon-border">
+            <GiWeightLiftingUp className='video-text-icon'/>
+          </div>
+          <h5>PROGRAMAS DE ENTRENAMIENTO PERSONALIZADOS</h5>
+          <p>Descubre entrenamientos adaptados a tu nivel físico y metas, para que puedas lograr un progreso constante y saludable.</p>
         </div> 
       </div>
     </section>

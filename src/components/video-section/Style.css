@@ -34,3 +34,41 @@
     border-radius: 200px;
     z-index: 1;
   }
+  .video-texts-container {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .video-text {
+    width: 220px;
+    height: 250px;
+    border: 3px solid yellow;
+    border-radius: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .video-text > p {
+    color: grey;
+    font-size: 0.9rem;
+  }
+  .video-text-icon-border {
+    border: 6px solid white;
+    z-index: 3;
+    position: absolute;
+    top: -2.4rem;
+    border-radius: 50%;
+  }
+  .video-text-icon {
+    font-size: 4rem;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
