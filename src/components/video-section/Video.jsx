@@ -24,16 +24,20 @@ const Video = () => {
       </div>
       <div className='video-texts-container'>
         <div className='video-text'>
-        <GiMeditation/>
+          <GiMeditation/>
+          <p>CUERPO Y MENTE</p>
         </div>
         <div className='video-text'>
-        <GiScales/>
+          <GiScales/>
+          <p>CUERPO Y MENTE</p>
         </div> 
         <div className='video-text'>
-        <GiHealthIncrease/>
+          <GiHealthIncrease/>
+          <p>ESTRATEGIAS</p>
         </div> 
         <div className='video-text'>
-        <GiWeightLiftingUp/>
+          <GiWeightLiftingUp/>
+          <p>ENTRENAMIENTO</p>
         </div> 
       </div>
     </section>
