@@ -2,6 +2,8 @@
 
 Puede visualizar el proyecto haciendo <a href="https://housetenia.vercel.app/">Click aquí</a>
 
+<img src="./src/imagenes/readme-imagen.jpg" alt="hero img"/>
+
 # Proyecto de Bienestar y Salud
 
 Este proyecto tiene como objetivo promover un estilo de vida saludable y proporcionar recursos para mejorar la salud física y mental. Ofrecemos contenido diverso, que incluye consejos para una vida saludable, estrategias para el éxito personal y programas de entrenamiento personalizados.
