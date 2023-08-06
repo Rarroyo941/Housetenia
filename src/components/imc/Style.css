@@ -1,0 +1,21 @@
+.imc-container {
+    height: 450px;
+    display: flex;
+}
+.imc-calculator {
+    padding-left: 5%;
+    width: 50vw;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.imc-table {
+    width: 50vw;
+    height: 100%;
+    background-image: url('../../imagenes/balanza.jpg');
+    background-size: cover;
+    background-color: red;
+}
